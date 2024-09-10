@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State Management</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="Container">
+      <h1 class="StateTitle">Manage State</h1>
+      <form>
+        <label>
+          <span class="StateLabel"> Key </span>
+          <input
+            class="StateInput"
+            type="text"
+            id="key"
+            placeholder="Enter key" />
+        </label>
+        <label>
+          <span class="StateLabel"> Value </span>
+          <input
+            class="StateInput"
+            type="text"
+            id="value"
+            placeholder="Enter value" />
+        </label>
+      </form>
+      <h2 class="StateTitle">Actions:</h2>
+      <button class="StateActions" id="create-btn">Create</button>
+      <button class="StateActions" id="update-btn">Update</button>
+      <button class="StateActions" id="delete-btn">Delete</button>
+      <button class="StateActions" id="clear-btn">Clear All</button>
+      <h2 class="StateTitle">State:</h2>
+      <ul id="state-output" class="StateList"></ul>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

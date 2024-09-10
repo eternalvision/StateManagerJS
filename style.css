@@ -1,0 +1,65 @@
+:root {
+  --color: #ebebeb;
+  --bg-color: #1a1a1a;
+  --radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 30px;
+  background-color: var(--bg-color);
+  color: var(--color);
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.Container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.StateInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+  background-color: #000;
+  color: var(--color);
+  border-radius: var(--radius);
+}
+
+.StateActions {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #000;
+  color: var(--color);
+  font-size: 20px;
+  border-radius: var(--radius);
+}
+
+.StateList {
+  margin-top: 10px;
+  border-radius: var(--radius);
+  padding: 10px;
+  font-size: 20px;
+  background-color: #000;
+}
+
+.StateTitle {
+  margin-top: 50px;
+}
